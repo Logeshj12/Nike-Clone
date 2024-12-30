@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.in {
+    background-image: white;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    /* width:1748px; */
+    height: 36px;
+    padding: 0 48px 0 48px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.navbar img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    padding: 5px;
+    /* margin-right:75%; */
+
+}
+
+.navbar li {
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    cursor: pointer;
+    margin: 0px 0px 0px 12px;
+
+
+}
+
+.navbar li:hover {
+    color: gray;
+}
+
+.vertical-line {
+    display: inline;
+    border-right: 1.10px solid;
+    height: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.header {
+    display: flex;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+
+}
+
+.navbartwo img {
+    padding: 0 48px;
+
+}
+
+.navbartwo {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dropdown {
+    display: none;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    position: absolute;
+
+}
+
+#drop:hover .dropdown {
+    display: block;
+    background-color: white;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.dropdown li {
+    margin-top: 25px;
+    padding: 5px;
+    position: relative;
+
+}
+
+.navbartwo ul {
+    background: transparent;
+    text-align: center;
+}
+
+.navbartwo .search input {
+    all: unset;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+}
+
+.navbartwo .search {
+    border: 1px solid #333;
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+    text-align: center;
+    border-color: transparent;
+    height: 36px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.svg:hover {
+    background-color: rgb(202, 202, 203);
+}
+
+.navbartwo .search svg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background-color: rgb(245, 245, 245);
+    padding: 5px 5px 5px 5px;
+
+}
+
+.navbartwo .search input {
+    width: 124px;
+    height: 36px;
+
+
+}
+
+.search-container {
+    height: 36px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: -50px;
+
+}
+
+.one {
+    display: flex;
+    position: relative;
+    /* left: 200px; */
+    /* bottom: 33px; */
+    color: #111111;
+    border-radius: 50%;
+    margin-left: 32px;
+
+}
+
+.two {
+    display: flex;
+    position: relative;
+    color: #111111;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.image {
+    margin: 0px 48px 0px 48px;
+
+    display: flex;
+}
+
+.text-one {
+    text-align: center;
+    size: 20px;
+    font: 1em sans-serif;
+    margin-top: 36px;
+
+}
+
+.win {
+
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+
+.drop {
+    position: relative;
+
+}
+
+.product-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+
+    max-width: 94vw;
+    margin-bottom: 84px;
+
+}
+
+.image-cart {
+    padding-bottom: 10px;
+
+}
+
+.product-container-two {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 94vw;
+}
+
+.image-cart-two {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details a {
+    color: #111111;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 500px;
+
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 75.016px;
+    left: 48px;
+    color: #111111;
+    border-radius: 30px;
+    border: 1px;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 6px 16px 6px 16px;
+}
+
+.bg-imageone {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imagetwo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imagethree {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imagefour {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imagefive {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imagesix {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-right: 12px;
+}
+
+.bg-imageseven {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.bg-btn {
+    position: absolute;
+    bottom: 100.016px;
+    left: 48px;
+    color: #ffffff;
+
+}
+
+.product-container-four {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 94vw;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+
+.bg-parah {
+    padding: 0px 12px 30px 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.bg-heading {
+    font-weight: 550;
+    font-size: 32px;
+}
+
+.bg-botton {
+    padding: 6px 16px 6px 16px;
+    border-radius: 50px;
+    margin-top: 18px;
+    border: #ffffff;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.product-container-five {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 94vw;
+}
+
+.running a {
+    color: #111111;
+    background-color: #b81313;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-cart-three {
+    padding-right: 12px;
+    padding-bottom: 10px;
+}
+
+.product-container-six {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 94vw;
+
+}
+
+.details-container {
+    width: 184px;
+    height: 31px;
+    padding-top: 12px;
+    margin-left: 0px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.details-one li {
+    list-style: none;
+    text-align: start;
+    padding: 12px 0px 0px 0px;
+    justify-content: start;
+    color: rgb(112, 112, 114);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#last {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 72px;
+}
+
+.details-one:hover {
+    position: relative;
+
+
+}
+
+.details-container-two {
+    width: 184px;
+    height: 31px;
+    padding-top: 12px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#contain {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 72px;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.details-two li {
+    list-style: none;
+    padding: 12px 0px 0px 0px;
+    text-align: left;
+    justify-content: space-evenly;
+    color: rgb(112, 112, 114);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.image-button {
+    border-radius: 50px;
+    padding: 6px 16px 6px 16px;
+    position: absolute;
+    bottom: 400px;
+    left: 150px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: start;
+    font-size: 15px;
+    /* border-top: 1px solid #ddd; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom a {
+    margin: 0 5px;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+}
+
+
+.footer-dropdown {
+    display: none;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+
+}
+
+#footer-dropdown:hover .footer-dropdown {
+    display: block;
+    background-color: white;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.footer-dropdown li {
+    margin-top: 25px;
+    padding: 5px;
+    position: absolute;
+
+}
